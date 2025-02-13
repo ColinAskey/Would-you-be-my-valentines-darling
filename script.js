@@ -6,13 +6,15 @@ const buttons = document.querySelector('.buttons')
 const text = document.querySelector('.text')
 const body = document.querySelector('body')
 
-function Sí() {
+function yes() {
     text.style.display = 'block'
     buttons.style.display = 'none'
-    question.textContent = "Ahuevo! Es una cita nena <3"
-    gif.src = 'assets/flores.jpg'
+    question.textContent = "Yey! It's a date then"
+    gif.src = '/assets/flores.jpg'
+    
     createHearts(100);
 }
+
 
 var phrase = ['¿Cómo que NO?', '¿De verdad NO quieres?(ভ_ ভ)', '¿PORQUÉ NOOO?ರ╭╮ರ', 'YAAAAA!(╥_╥) NO juegues conmigo ಠ_ಠ)', 'Te daré una última oportunidad :))', 'Shi(„ᵕᴗᵕ„)♡ NO hay de otra']
 var gifs = ['assets/como.jpg', 'assets/verdad.jpg', 'assets/esquina.jpg', 'assets/yaaaa.jpg', 'assets/indignado.jpg', 'assets/shi.jpg']
