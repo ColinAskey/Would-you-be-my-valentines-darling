@@ -38,7 +38,7 @@ function no() {
 function createHearts(numbers) {
     for (var i = 0; i < numbers; i++) {
         var heart = document.createElement("img");
-        heart.src = '/assets/Heart_corazón.svg.png';
+        heart.src = 'assets/Heart_corazón.svg.png';
         heart.alt = "Heart";
         heart.classList.add("heart");
         heart.classList.add("heart" + (i % 3 + 1)); // Assigning different animation classes
