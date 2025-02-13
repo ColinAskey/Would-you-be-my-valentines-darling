@@ -20,7 +20,7 @@ var phrase = ['¿Cómo que NO?', '¿De verdad NO quieres?(ভ_ ভ)', '¿PORQUÉ
 var gifs = ['assets/como.jpg', 'assets/verdad.jpg', 'assets/esquina.jpg', 'assets/yaaaa.jpg', 'assets/indignado.jpg', 'assets/shi.jpg']
 var noCount = 0
 
-function No() {
+function no() {
     if (noCount != 6) {
         noBtn.style.position  = 'absolute'
         var newX = Math.random() * (window.innerWidth - noBtn.offsetWidth);
