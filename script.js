@@ -12,7 +12,7 @@ function Sí() {
     text.style.display = 'block'
     buttons.style.display = 'none'
     question.textContent = "Ahuevo! Es una cita nena <3"
-    gif.src = '/assets/flores.jpg'
+    gif.src = 'Would-you-be-my-valentines-darling/assets/flores.jpg'
 
 
     createHearts(100);
