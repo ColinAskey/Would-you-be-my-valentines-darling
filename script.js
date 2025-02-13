@@ -1,5 +1,5 @@
 const gif = document.querySelector('.giffy');
-const yesBtn = document.querySelector('.yes');
+const yesBtn = document.querySelector('.Sí');
 const noBtn = document.querySelector('.no');
 const question = document.querySelector('.question')
 const buttons = document.querySelector('.buttons')
@@ -31,6 +31,7 @@ function no() {
         gif.src = gifs[noCount]
         noCount++;
     } else {
+        
         Sí()
     }
 }
