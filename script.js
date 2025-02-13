@@ -16,7 +16,7 @@ function Sí() {
 }
 
 
-var phrase = ['¿Cómo que NO?', '¿De verdad NO quieres?(ভ_ ভ)', '¿PORQUÉ NOOO?ರ╭╮ರ', 'YAAAAA!(╥_╥) NO juegues conmigo ಠ_ಠ)', 'Te daré una última oportunidad :))', 'Shi(„ᵕᴗᵕ„)♡ NO hay de otra']
+var phrase = ['¿Cómo que NO?', '¿De verdad NO quieres?(ভ_ ভ)', '¿PORQUÉ NOOO?ರ╭╮ರ', 'YAAAAA!(╥_╥) NO juegues conmigo ಠ_ಠ)', 'Te daré una última oportunidad :))', 'Shi(ꈍᴗꈍ)♡ NO hay de otra']
 var gifs = ['assets/como.jpg', 'assets/verdad.jpg', 'assets/esquina.jpg', 'assets/yaaaa.jpg', 'assets/indignado.jpg', 'assets/shi.jpg']
 var noCount = 0
 
