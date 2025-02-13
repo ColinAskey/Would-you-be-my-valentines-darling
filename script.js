@@ -9,7 +9,7 @@ const body = document.querySelector('body')
 function yes() {
     text.style.display = 'block'
     buttons.style.display = 'none'
-    question.textContent = "Yey! It's a date then"
+    question.textContent = "Ahuevo! Es una cita nena <3"
     gif.src = '/assets/flores.jpg'
     
     createHearts(100);
