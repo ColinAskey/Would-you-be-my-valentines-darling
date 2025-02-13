@@ -1,12 +1,12 @@
 const gif = document.querySelector('.giffy');
 const yesBtn = document.querySelector('.Sí');
-const noBtn = document.querySelector('.no');
+const noBtn = document.querySelector('.No');
 const question = document.querySelector('.question')
 const buttons = document.querySelector('.buttons')
 const text = document.querySelector('.text')
 const body = document.querySelector('body')
 
-function yes() {
+function Sí() {
     text.style.display = 'block'
     buttons.style.display = 'none'
     question.textContent = "Ahuevo! Es una cita nena <3"
@@ -20,7 +20,7 @@ var phrase = ['¿Cómo que NO?', '¿De verdad NO quieres?(ভ_ ভ)', '¿PORQUÉ
 var gifs = ['assets/como.jpg', 'assets/verdad.jpg', 'assets/esquina.jpg', 'assets/yaaaa.jpg', 'assets/indignado.jpg', 'assets/shi.jpg']
 var noCount = 0
 
-function no() {
+function No() {
     if (noCount != 6) {
         noBtn.style.position  = 'absolute'
         var newX = Math.random() * (window.innerWidth - noBtn.offsetWidth);
